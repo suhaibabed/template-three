@@ -20,7 +20,6 @@ ul {
 }
 
 .container {
-  max-width: 1140px;
   width: 100%;
   margin: 0 auto;
 }
@@ -35,7 +34,6 @@ ul {
   background-repeat: no-repeat;
   background-blend-mode: multiply;
   height: auto;
-  min-height: 100vh;
   width: 100%;
   position: relative;
 }
@@ -44,4 +42,35 @@ ul {
   .main-container {
     margin: 0 auto;
   }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
 }
