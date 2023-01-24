@@ -1,0 +1,56 @@
+
+.main-page-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-page-left-section{
+     display: flex;
+     flex-direction: column;
+     padding-left: 16px;
+     padding-right: 16px;
+}
+
+.main-page-right-section{
+    display: flex;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.person{
+    width: 15rem;
+    margin-top: -8rem;
+    margin-left: 6rem;
+    
+}
+
+.header-main{
+    font-weight: 800;
+    font-size: 3.7rem;
+    width: 38.5rem;
+    color: #BB0025;
+    line-height: 5rem;
+    margin-right: 3rem;
+}
+
+.paragraph{
+    font-weight: 700;
+    font-size: 2rem;
+    width: 27rem;
+    color: #BB0025;
+    line-height: 3rem;
+    margin-left: 5rem;
+}
+
+button{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 7px;
+    border: none;
+    background-color: #BB0025;
+    line-height: 3rem;
+    color: white;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}

@@ -1,0 +1,80 @@
+.header {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-img {
+  width: 6rem;
+}
+nav {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 75%;
+}
+
+.navbar-menu .navbar-item {
+  list-style-type: none;
+}
+
+.navbar-item a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #bb0025;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5%;
+}
+.seach-icon {
+  font-size: 24px;
+  color: #bb0025;
+}
+input {
+  width: 130px;
+  height: 30px;
+  border-radius: 5px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+input:focus {
+  outline: none;
+}
+::-webkit-input-placeholder {
+  color: gray;
+  text-align: center;
+}
+::-moz-placeholder {
+  color: gray;
+  text-align: center;
+}
+:-ms-input-placeholder {
+  color: gray;
+  text-align: center;
+}
+::-ms-input-placeholder {
+  color: gray;
+  text-align: center;
+}
+::placeholder {
+  color: gray;
+  text-align: center;
+}

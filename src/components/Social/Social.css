@@ -1,0 +1,16 @@
+.social-list {
+  display: flex;
+  color: black;
+  font-size: 3rem;
+  align-self: flex-end;
+  margin-top: 10%;
+  width: 100%;
+  justify-content: end;
+}
+.list-item {
+  margin-right: 5%;
+  max-width: 20px;
+}
+.list-item:last-child {
+  margin-right: 0;
+}
