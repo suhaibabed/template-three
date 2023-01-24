@@ -25,6 +25,7 @@ ul {
 }
 
 .header-section {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   background-image: url(./assets//background.png), url(./assets/Shape.png),
@@ -36,13 +37,6 @@ ul {
   height: auto;
   width: 100%;
   position: relative;
-  overflow: hidden;
-}
-
-@media screen and (min-width: 1400px) {
-  .main-container {
-    margin: 0 auto;
-  }
 }
 
 @media (min-width: 576px) {
@@ -74,4 +68,7 @@ ul {
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
+  .main-container {
+    margin: 0 auto;
+  }
 }

@@ -169,3 +169,79 @@ svg {
   bottom: 5%;
   right: 50%;
 }
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .quarter-circle {
+    right: 20%;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .person-img {
+    width: 50%;
+  }
+  .header-section {
+    background-size: cover, 40%, 30%, 30%;
+  }
+
+  .quarter-circle {
+    top: -13%;
+    right: 0%;
+  }
+
+  .outer {
+    top: 40%;
+    right: 10%;
+  }
+
+  .five-triangles {
+    bottom: 37%;
+    left: 28%;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .hero-left-column {
+    display: none;
+  }
+
+  .hero-content {
+    flex-direction: column;
+  }
+
+  .header-section {
+    background-size: cover, 30%, 30%, 30%;
+  }
+
+  .hero-right-column {
+    flex-basis: 100%;
+    align-self: center;
+    text-align: center;
+  }
+
+  .paragraph {
+    max-width: none;
+
+    text-align: center;
+  }
+  button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .five-triangles,
+  .lines,
+  .x-shape {
+    display: none;
+  }
+}
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
