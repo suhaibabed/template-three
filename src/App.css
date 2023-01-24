@@ -29,7 +29,7 @@ ul {
   flex-direction: column;
   background-image: url(./assets//background.png), url(./assets/Shape.png),
     url(./assets/shape03.png), url(./assets/shape02.png);
-  background-size: cover, 35%, 30%, 30%;
+  background-size: cover, 32%, 30%, 30%;
   background-position: center center, left bottom, 80% top, 90% bottom;
   background-repeat: no-repeat;
   background-blend-mode: multiply;

@@ -10,7 +10,6 @@
 .hero-left-column {
   display: flex;
   flex-direction: column;
-
   flex-basis: 50%;
 }
 
@@ -25,7 +24,7 @@
 .person-img {
   width: 35%;
   margin-top: -19%;
-  margin-left: 2%;
+  margin-left: -6%;
 }
 
 .heading {
@@ -60,8 +59,7 @@ svg {
   width: 100%;
   display: inline-block;
 }
-.cls-1 {
-}
+
 .dot-container {
   position: absolute;
   top: 11%;
@@ -139,8 +137,8 @@ svg {
 /* X Shape */
 .x-shape {
   position: absolute;
-  bottom: -38px;
-  left: 15%;
+  bottom: -55px;
+  left: 12%;
   width: 60px;
 }
 
@@ -157,7 +155,7 @@ svg {
 .five-triangles {
   position: absolute;
   bottom: 21%;
-  left: 25%;
+  left: 23%;
   width: 60px;
 }
 
