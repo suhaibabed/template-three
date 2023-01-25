@@ -4,6 +4,9 @@
   margin: 0;
 }
 
+ul {
+  list-style: none;
+}
 
 :root {
   background-color: #ded7de;
